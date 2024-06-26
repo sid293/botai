@@ -17,30 +17,39 @@ export default function Homepage(){
                 <Typography sx={{
                     height:"20%",
                     width:"100%",
-                    // alignSelf:"end"
                 }}>How Can I Help You Today?</Typography>
 
                 <Box className="suggestions" sx={{
                     height:{sm:"50%",md:"40%"},
                     width:"auto", display:"flex",flexWrap:"wrap",
-                    // flexDirection:{xs:"column",sm:"row"},
                     flexDirection:"column",
                     backgroundColor:{sm:"orange",md:"green"}
                 }}>
-                    {/* //setting minwidth of something */}
-                    <Paper elevation={3} sx={{width:"45%",height:"40%"}}>
+                    <Paper elevation={3} sx={{
+                        width:{sm:"90%",md:"40%"},
+                        height:{sm:"20%",md:"40%"}
+                        }}>
                         <Typography>Ask a question</Typography>
                         <Typography>Ask a question</Typography>
                     </Paper>
-                    <Paper elevation={3} sx={{width:"45%",height:"40%"}}>
+                    <Paper elevation={3} sx={{
+                        width:{sm:"90%",md:"40%"},
+                        height:{sm:"20%",md:"40%"}
+                        }}>
                         <Typography>Ask a question</Typography>
                         <Typography>Ask a question</Typography>
                     </Paper>
-                    <Paper elevation={3} sx={{width:"45%",height:"40%"}}>
+                    <Paper elevation={3} sx={{
+                        width:{sm:"90%",md:"40%"},
+                        height:{sm:"20%",md:"40%"}
+                        }}>
                         <Typography>Ask a question</Typography>
                         <Typography>Ask a question</Typography>
                     </Paper>
-                    <Paper elevation={3} sx={{width:"45%",height:"40%"}}>
+                    <Paper elevation={3} sx={{
+                        width:{sm:"90%",md:"40%"},
+                        height:{sm:"20%",md:"40%"}
+                        }}>
                         <Typography>Ask a question</Typography>
                         <Typography>Ask a question</Typography>
                     </Paper>
