@@ -1,11 +1,14 @@
 
-import { Typography } from "@mui/material"
+import MenuIcon from '@mui/icons-material/Menu';
+import { Typography, useMediaQuery } from "@mui/material"
+import json2mq from 'json2mq';
 
+export default function Navbar({toogleSidebar}){
 
-export default function Navbar(){
+    let menuIconOpen = useMediaQuery(json2mq({maxWidth:"900px"}));
 
-
-    return(<div>
+    return(<div style={{display:"flex",justifyContent:"start"}}>
+        {menuIconOpen && <MenuIcon onClick={toogleSidebar} />}
         <Typography>
             Bot AI
         </Typography>
