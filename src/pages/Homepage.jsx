@@ -18,7 +18,7 @@ export default function Homepage(){
     }));
 
     let answerQuestion = ()=>{
-        let ans = {"from":"Me",
+        let ans = {"from":"You",
             "message":input
         }
         let wrapper = {...conversationJson};
