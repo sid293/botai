@@ -1,0 +1,10 @@
+
+.thumbIcon{
+    display:"none";
+    /* background-color: red; */
+}
+
+.card:hover .thumbIcon{
+    display:'visible';
+    /* background-color: red; */
+}
