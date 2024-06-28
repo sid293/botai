@@ -207,11 +207,8 @@ export default function Homepage(){
                 </Box>
                 :
                 <Box sx={{
-                    height: "83vh",
+                    height: "82vh",
                     overflow: "scroll",
-                    // display:"flex",
-                    // flexDirection:"column",
-                    // alignItems:"center"
                 }} className="conversationScreen">
                     {
                         conversationJson["data"].map((info) => (
