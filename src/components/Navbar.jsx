@@ -8,8 +8,15 @@ export default function Navbar({toogleSidebar}){
     let menuIconOpen = useMediaQuery(json2mq({maxWidth:"900px"}));
 
     return(<div style={{display:"flex",justifyContent:"start"}}>
-        {menuIconOpen && <MenuIcon onClick={toogleSidebar} />}
-        <Typography>
+        {menuIconOpen && <MenuIcon fontSize='large' onClick={toogleSidebar} />}
+        <Typography sx={{
+            fontFamily:"Ubuntu",
+            fontSize:"28px",
+            fontWeight:"700",
+            color:"rgba(151, 133, 186, 1)",
+            mx:"10px"
+
+        }}>
             Bot AI
         </Typography>
     </div>)
